@@ -1,0 +1,105 @@
+.mar-container{
+    background-color: burlywood;
+    font-size: 30px;
+}
+
+.img1{
+    position: relative;
+    /* top: 5px;
+    left: 5px; */
+    opacity: 1;
+}
+
+/* .img1:hover{
+    opacity: 0.8;
+} */
+
+.img2{
+    float: right;
+}
+
+.img2:hover, .img1:hover{
+    opacity: 0.8;
+}
+
+.heading{
+    position: absolute;
+    top: 48px;
+    left: 650px;
+    background-color: antiquewhite;
+    padding: 6px 6px;
+}
+.parent-div{
+    background-color: rgb(234, 249, 161);
+    height: 700px;
+}
+.main{
+    font-size: 20px;
+    text-align: center;
+    top: 84px;
+    position: absolute;
+    left: 600px;
+}
+
+.main2{
+   top: 120px;
+}
+
+.f-letter{
+    font-size: 30px;
+    color: blueviolet !important;
+}
+
+.main2::first-letter{
+    font-size: 30px;
+    color: rgb(226, 92, 43);
+}
+
+.login-form{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    left: 620px;
+    top: 170px;
+    border-radius: 15px;
+    background-color: darkseagreen;
+}
+
+.btn{
+    padding: 6px 6px;
+    background-color: crimson;
+    border-radius: 15px;
+    font-size: 18px;
+}
+
+input:focus{
+    background-color: aquamarine;
+}
+
+h1::selection{
+    color: crimson;
+    background-color: cornsilk;
+}
+.tnc{
+    position: relative;
+    top: 200px;
+    left: 550px;
+}
+.disp-inln{
+    position: relative;
+    top: 203px;
+   
+}
+
+.disp1{
+    display:none;
+    height: 40px;
+    width: 60px;
+    background-color: antiquewhite;
+}
+.disp2{
+    display: none;
+    height: 40px;
+    width: 60px;
+    background-color: antiquewhite;
+}

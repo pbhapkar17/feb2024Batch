@@ -1,0 +1,25 @@
+
+.table-container{
+    background-color: antiquewhite;
+    border: 2px solid red;
+    width: 400px;
+    height: 286px;
+   
+}
+.table-body{
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 70px;
+}
+
+table,th,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+h2{
+    margin-left: 207px;
+}
+
+/*padding is the space between the element's content and its border, while margin is the space between the element's border and the next element.. */

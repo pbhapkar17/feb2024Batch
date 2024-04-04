@@ -1,0 +1,57 @@
+.static-property{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    /* top: 30px; diasale   top/left/right/bottom/float/z-index :inactive*/
+    /* position: static;   */
+}
+.rel-property{
+    border: 1px solid blue;
+    width: 200px;
+    position: relative;
+    top: 25px;
+    left: 200px;
+    height: 50px;
+}
+
+.abs-parent-property{
+
+    border: 1px solid black;
+    width: 296px;
+    height: 167px;
+    position: relative;
+    top: 20px;
+}
+
+.abs-property {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 27px;
+    right: 53px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0px;
+    border: 1px solid black;
+    width:1350px;
+    height: 27px;
+    background-color: aquamarine;
+    text-align: center;
+}
+.parent-div{
+    height: 1000px;
+}
+
+.header{
+    position: sticky;
+    top: 0px;
+    border: 1px solid black;
+    width:1350px;
+    height: 30px;
+    background-color: aquamarine;
+    text-align: center;
+    z-index: 1
+}

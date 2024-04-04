@@ -1,0 +1,48 @@
+<!-- capital case : SIGN IN FORM
+     Title case : Sign In Form 
+     Camel case: signInForm-->
+
+<form>
+
+    <h3>Sign Up Form</h3>
+
+    <label> Full Name </label><br>
+    <input type="text" maxlength="10" minlength="5" required><br>
+
+    <label> Mobile Number</label><br>
+    <!-- <input type="number" > -->
+    <input type="text" pattern="^[0-9]{10}$"><br>
+
+    <label>Gender</label><br>
+    <!-- Radio Button : single selection , checkbox : multiselection-->
+    <input type="radio" name="gender" id="maleGender"> Male
+    <input type="radio" name="gender" id="femaleGender"> Female
+
+    <!-- <input type="radio" name="food"> Veg
+    <input type="radio" name="food"> Non-veg -->
+    <br>
+    <Label>Hobies</Label><br>
+    <input type="checkbox">Painting <br>
+    <input type="checkbox">Dancing <br>
+    <input type="checkbox">Swimming <br>
+    <input type="checkbox">Cycling <br><br>
+
+    <label>Car</label><br>
+    <select>
+        <option hidden>Swift</option>
+        <option>Audi</option>
+        <option>Mini Cup</option>
+        <option selected>Jaguar</option>
+    </select><br><br>
+
+    <a href="https://www.flipkart.com/">Flip Kart</a>
+
+    <br>
+    <!-- Poonam@123 -->
+    <Label>Password</Label><br>
+    <input type="text" pattern="^[A-Z]{1}[a-z]{5}[@]{1}[0-9]{3}$">
+
+    <br><br><br><br>
+    <button>Submit</button>
+
+</form>

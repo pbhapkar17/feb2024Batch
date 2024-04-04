@@ -1,0 +1,34 @@
+.text-properties{
+    font-size: 40px;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 11px orange;
+    border: 2px dotted red;
+    width: 368px;
+    box-shadow: 5px 5px 22px;
+    margin: auto;
+    background-color: beige;
+    overflow: auto;
+}
+
+
+.word-prop{
+    border: 1px solid black;
+    width: 100px;
+    /* word-wrap: break-word; */
+    word-break : break-all;
+    word-spacing: 10px;
+}
+
+.text-prop{
+    border: 1px solid black;
+    width: 100px;
+    text-overflow: clip;
+    overflow: hidden;
+
+}
+
+/*word-wrap:normal/break-word
+word-break : normal/break-all/break-word
+break-all:	To prevent overflow, word may be broken at any character
+break-word: To prevent overflow, word may be broken at arbitrary points */

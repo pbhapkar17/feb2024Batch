@@ -1,0 +1,34 @@
+
+
+/*external css : Class selector, id selector, name/element selector
+
+.className{
+    Properties :value
+} 
+
+className >>> 
+1. must be starts with alphabet only 
+2.It musgt not starts with integer
+3.space not allowed
+4.special character except - _ not allowed
+5.classname must starts with period operator(.) followed by name*/
+
+.div-container {
+   color : brown;
+   font-size: 50px;
+   font-family: 'Courier New';
+}
+
+#k-container {
+    color: yellow;
+    font-size: 40px;
+}
+
+h2,h3,span{
+    color: yellowgreen;
+    font-size: 30px;
+}
+/* As the name suggests, Universal Selector in CSS is used to select all the elements on the HTML page, such as <p>, <h1>, <img> etc. Therefore, CSS styles applied to the universal selector affect every element on the web page (including <html> and <body>). Asterisk (*): symbol denotes the universal selector in CSS */
+*{
+    background-color: tomato;
+}
