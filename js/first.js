@@ -11,6 +11,7 @@ let _cityName;
 let CityName;
 let cityname;
 let city_name;
+city;
 
 let name1; //declration
 console.log("name1 before init",name1);
