@@ -1,11 +1,15 @@
 // js 1.primitive data type
 //2.non-premitive data type
-//String.
+
+//1.primitive data type
+// String.
 // Number.
 // Bigint.
 // Boolean.
 // Undefined.
 // Null.
+
+//2.non-premitive data type
 // Symbol.
 // Object.
 // Primitive data types store a single value and occupy a single memory space, whereas Non-primitive data types can store multiple values and hence, occupy multiple memory spaces
@@ -108,3 +112,15 @@ let arr_obj = [
     console.log(arr_obj[0]);
     console.log(arr_obj[0].age);
     console.log(arr_obj[2].name);
+
+    //object : null/array/obj
+    console.log(typeof(arr_obj));
+    console.log(typeof(obj1));
+
+
+    let arr = [10,100,12,15,[44,55,33,[11,44,7,0]]];
+    console.log(arr[4][1]);
+    console.log(arr);
+    console.log(arr[4]); 
+     console.log(arr[4][3]);
+     console.log(arr[4][3][2]);
