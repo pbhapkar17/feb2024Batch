@@ -59,3 +59,29 @@ let x = 10;
 //10>10 :F
 //condition ? T : F
 x > 10 ? console.log("x is greater than 10") : console.log("x is less than 10");
+
+//Logical Operators
+// &&	logical and  10 > 0 && 10 > 40  :: T && T >>T otherwise F
+// ||	logical or
+// !	logical not
+
+let y = 90;
+let r = 6;
+console.log(y > r && y < r && y ===90); //F
+
+console.log( y === 90 || y > 80);// F || F >> F
+
+let isValid = true;
+console.log(!isValid); //!T >>F , !F >>T
+
+let isValid1 = "true";
+console.log(!isValid1); //f
+
+let k = 80;
+console.log(!k);//f
+
+let u = null //null/undefined/false >> false
+console.log(!u); // !null >>> !f >> T
+
+let u1 = undefined //null/undefined/false >> false
+console.log(!u1); // !undefined >>> !f >> T
