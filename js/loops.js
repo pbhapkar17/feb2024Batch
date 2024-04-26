@@ -10,10 +10,29 @@ console.log("8");
 console.log("9");
 console.log("10");
 
+//for loop
 //for(statement;condition;incr/dcr){
     //}
     //statement:will execute only once;
 
 for(let a = 1; a < 11; a++){
     console.log(a);
+}
+
+//for in loop : object
+let data = {
+    name:"Poonam",
+    age:60,
+    mobNo:8989899797,
+    city:"Mumbai"
+}
+
+for(let x in data){
+ console.log(data[x]);//[]property access //data[name]>>"Poonam" data.name>>poonam
+}
+
+//for of loop: array
+let data1 = [10,55,54,54,5,88,99];
+for(let v of data1){
+console.log(v);
 }
