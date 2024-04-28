@@ -36,3 +36,19 @@ let data1 = [10,55,54,54,5,88,99];
 for(let v of data1){
 console.log(v);
 }
+
+//for
+for(let b = 0; b < data1.length; b++){
+console.log(data1[b]);
+}
+
+//do while
+
+
+let i = 0;
+do {
+    console.log(i);
+    i++; //i++ loop will into infinite loop
+
+}
+while (i < 5);
