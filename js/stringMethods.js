@@ -34,3 +34,33 @@ console.log(part1);
 
 let part2 = str.substr(7, 5);
 console.log(part2);
+
+
+//toUpperCase()
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let fName = "pooja";
+let lName = "patil";
+let fullName = fName.concat(" ", lName).toUpperCase();
+console.log(fullName);
+
+let data = "    om  jadhav    ";
+let data2 = data.trim();
+console.log(data2);
+
+let data3 = data.trimStart();
+console.log(data3);
+
+let data4 = data.trimEnd();
+console.log(data4);
+
+let r = "i like Red Red Red color";
+let y = r.replace(/red/gi,'Blue');
+console.log(y);
+
+console.log(r.replaceAll(/red/gi,"yellow"));
+
+let h = "Poonam Patil";
+let u= h.split(" ")
+console.log(u);
